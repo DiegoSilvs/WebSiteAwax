@@ -487,8 +487,8 @@ header {
 
 
 .section-companies {
-    border-top:1px solid #DDD;
-    border-bottom:1px solid #DDD;
+    border-top:1px solid #CCC;
+    border-bottom:1px solid #CCC;
 }
 .section-companies--area{
     display: flex;
@@ -497,4 +497,51 @@ header {
 .section-company {
     flex:1;
     text-align:center;
+}
+
+
+.bg-prices{
+    background-color: rgb(228, 228, 228);
+}
+.bg-prices .section-dsc{
+    color: #999;
+}
+.section-prices{
+    display: flex;
+}
+.section-price--item{
+    flex: 1;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding:20px;
+    text-align:center;
+    border-radius: 5px;
+}
+.section-price--item:last-child {
+    margin-right:0;
+}
+.section-price--item-name{
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight:600;
+}
+.section-price--item-money{
+    font-weight: bold;
+    font-size:22px;
+    margin-top:10px;
+}
+.section-price--item-period{
+    color:#999;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+.section-price--item-point {
+    font-size:12px;
+}
+.button--dark{
+    margin-top: 10px;
+    background-color: #333;
+}
+.button--dark:hover{
+    background-color: #b28726;
 }
